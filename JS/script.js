@@ -85,7 +85,7 @@ const fases = [
       curiosidade: "O país que é representado por essa bandeira possui 68 línguas nativas reconhecidas."
     },
     {
-      bandeira: "IMG/alemanha.png",
+      bandeira: "IMG/alemanha.PNG",
       pais: "Alemanha",
       opcoes: ["Alemanha", "Bélgica", "Áustria"],
       curiosidade: "O país que é representado por essa bandeira é o lar de mais de 20.000 castelos."
@@ -257,7 +257,7 @@ const fases = [
       curiosidade: "O país que é representado por essa bandeira tem rica herança cultural e religiosa."
     },
     {
-      bandeira: "IMG/maldivas.png",
+      bandeira: "IMG/maldivas.PNG",
       pais: "Ilhas Maldivas",
       opcoes: ["Uzbequistão", "Ilhas Maldivas", "Paquistão"],
       curiosidade: "O país que é representado por essa bandeira é o menor país em área e população da Ásia."
