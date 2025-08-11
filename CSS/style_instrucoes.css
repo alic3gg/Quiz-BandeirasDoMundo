@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image:url(../IMG/bg_page.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+@font-face{
+    font-family:ConsolaRegular;
+    src:url(../FONT/CONSOLA.TTF);
+}
+@font-face{
+    font-family:NTBrickSans;
+    src:url(../FONT/NTBrickSans.ttf);
+}
+.background{
+    height:720px;
+    width:360px;
+    background-image:url(../IMG/bg_instrucoes.png);
+    background-repeat:no-repeat;
+    box-shadow: 
+        0 0 10px #000000,
+        0 0 20px #000000,
+        0 0 40px #000000,
+        0 0 80px #000000;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    margin: 0 auto;
+    margin-top:40px;
+    justify-content: center;
+    flex-direction:column;
+}
+.instrucoes{
+    height:auto;
+    width:auto;
+    background:none;
+    border:none;
+    color:#fbf8b7;
+    font-family:NTBrickSans;
+    font-size:23px;
+    margin-bottom:15px;
+    margin-left:95px;
+}
+.texto{
+    height:auto;
+    width:auto;
+    background:none;
+    border:none;
+    color:#ffffff;
+    font-family:ConsolaRegular;
+    font-size:15px;
+    margin-bottom:40px;
+    margin-right:20px;
+    margin-left:20px;
+}
+.begin{
+    height:auto;
+    width:auto;
+    background:none;
+    border:none;
+    color:#fbf8b7;
+    font-family:NTBrickSans;
+    font-size:23px;
+    margin-top:5px;
+}
+.begin:hover{
+    height:auto;
+    width:auto;
+    color:#8fca95;
+    font-family:NTBrickSans;
+    font-size:23px;
+    margin-top:5px;
+    text-shadow: 
+        0 0 1px #8fca95,
+        0 0 4px #8fca95,
+        0 0 6px #8fca95,
+        0 0 8px #8fca95;
+    transition: all 0.3s ease-in-out;
+}
+.back{
+    height:auto;
+    width:auto;
+    background:none;
+    border:none;
+    color:#8fca95;
+    font-family:NTBrickSans;
+    font-size:18px;
+    margin-top:5px;
+}
+.back:hover{
+    height:auto;
+    width:auto;
+    color:#fbf8b7;
+    font-family:NTBrickSans;
+    font-size:18px;
+    margin-top:5px;
+    text-shadow: 
+        0 0 1px #fbf8b7,
+        0 0 4px #fbf8b7,
+        0 0 6px #fbf8b7,
+        0 0 8px #fbf8b7;
+    transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image:url(../IMG/bg_page.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+@font-face{
+    font-family:NTBrickSans;
+    src:url(../FONT/NTBrickSans.ttf);
+}
+.background{
+    height:720px;
+    width:360px;
+    background-image:url(../IMG/bg_game.png);
+    background-repeat:no-repeat;
+    box-shadow: 
+        0 0 10px #000000,
+        0 0 20px #000000,
+        0 0 40px #000000,
+        0 0 80px #000000;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    margin: 0 auto;
+    margin-top:40px;
+    justify-content:flex-end;
+    align-items: flex-start;
+    flex-direction:column;
+}
+.begin{
+    height:80px;
+    width:200px;
+    background:none;
+    border:none;
+    color:#fbf8b7;
+    font-family:NTBrickSans;
+    font-size:23px;
+    display:flex;
+    justify-content:flex-start;
+    margin-left:25px;
+    margin-bottom:-20px;
+}
+.begin:hover{
+    height:80px;
+    width:200px;
+    color:#8fca95;
+    font-family:NTBrickSans;
+    font-size:23px;
+    text-shadow: 
+        0 0 1px #8fca95,
+        0 0 4px #8fca95,
+        0 0 6px #8fca95,
+        0 0 8px #8fca95;
+    transition: all 0.3s ease-in-out;
+}
+.instrucoes{
+    height:80px;
+    width:200px;
+    background:none;
+    border:none;
+    color:#8fca95;
+    font-family:NTBrickSans;
+    font-size:16px;
+    display:flex;
+    justify-content:flex-start;
+    margin-left:25px;
+    margin-top:-20px;
+    margin-bottom:30px;
+}
+.instrucoes:hover{
+    height:80px;
+    width:200px;
+    color:#fbf8b7;
+    font-family:NTBrickSans;
+    font-size:16px;
+    text-shadow: 
+        0 0 1px #fbf8b7,
+        0 0 4px #fbf8b7,
+        0 0 6px #fbf8b7,
+        0 0 8px #fbf8b7;
+    transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image:url(../IMG/bg_page.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+img {
+    height:200px;
+    width:200px;
+}
+@font-face{
+    font-family:ConsolaRegular;
+    src:url(../FONT/CONSOLA.TTF);
+}
+@font-face{
+    font-family:ConsolaBold;
+    src:url(../FONT/CONSOLAB.TTF);
+}
+@font-face{
+    font-family:NTBrickSans;
+    src:url(../FONT/NTBrickSans.ttf);
+}
+.background{
+    height:720px;
+    width:360px;
+    background-image:url(../IMG/bg_final.png);
+    background-repeat:no-repeat;
+    box-shadow: 
+        0 0 10px #000000,
+        0 0 20px #000000,
+        0 0 40px #000000,
+        0 0 80px #000000;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    margin: 0 auto;
+    margin-top:40px;
+    align-items: center;
+    flex-direction:column;
+}
+#titulo{
+    color:#fbf8b7;
+    font-family:ConsolaBold;
+    font-size:23px;
+    margin-top:135px;
+}
+#texto{
+    color:#ffffff;
+    font-family:ConsolaRegular;
+    font-size:20px;
+    margin-left:40px;
+    margin-right:40px;
+    margin-top:10px;
+}
+#pontuacao{
+    color:#fbf8b7;
+    font-family:ConsolaRegular;
+    font-size:15px;
+}
+#btn{
+    height:80px;
+    width:200px;
+    background:none;
+    border:none;
+    color:#8fca95;
+    font-family:NTBrickSans;
+    font-size:23px;
+}
+#btn:hover{
+    height:80px;
+    width:200px;
+    color:#fbf8b7;
+    font-family:NTBrickSans;
+    font-size:24px;
+    text-shadow: 
+        0 0 1px #fbf8b7,
+        0 0 4px #fbf8b7,
+        0 0 6px #fbf8b7,
+        0 0 8px #fbf8b7;
+    transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image:url(../IMG/bg_page_fases.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+@font-face{
+    font-family:ConsolaRegular;
+    src:url(../FONT/CONSOLA.TTF);
+}
+@font-face{
+    font-family:ConsolaBold;
+    src:url(../FONT/CONSOLAB.TTF);
+}
+@font-face{
+    font-family:NTBrickSans;
+    src:url(../FONT/NTBrickSans.ttf);
+}
+.background{
+    height:720px;
+    width:360px;
+    background-image:url(../IMG/bg_fase.png);
+    background-repeat:no-repeat;
+    box-shadow: 
+        0 0 10px #000000,
+        0 0 20px #000000,
+        0 0 40px #000000,
+        0 0 80px #000000;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    margin: 0 auto;
+    margin-top:40px;
+    align-items: center;
+    flex-direction:column;
+}
+.info-superior{
+    height:auto;
+    width:330px;
+    color:#ffffff;
+    font-family:NTBrickSans;
+    font-size:20px;
+    margin-top:15px;
+    margin-bottom:0px;
+    display:flex;
+    justify-content:space-between;
+}
+.info-superior img{
+    height:35px;
+    width:35px;
+}
+#info1{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+#info2{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+#pergunta{
+    height:auto;
+    width:360px;
+    color:#ffffff;
+    font-family:NTBrickSans;
+    font-size:24px;
+    margin-left:45px;
+}
+#bandeira-img{
+    height:175px;
+    width:250px;
+}
+#bg_curiosidade{
+    height:116px;
+    width:280px;
+    background-image:url(../IMG/bg_curiosidade.png);
+    background-repeat:no-repeat;
+    margin-bottom:-5px;
+}
+#bg_curiosidade img{
+    height:30px;
+    width:30px;
+}
+#texto_curiosidade{
+    font-family:ConsolaBold;
+    font-size:18px;
+}
+#organizacao{
+    display:flex;
+    flex-direction:row;
+    margin-top:7px;
+}
+#curiosidade{
+    font-family:ConsolaRegular;
+    font-size:16px;
+    margin-left:10px;
+}
+#opcoes button{
+    height:56px;
+    width:224px;
+    margin-top:5px;
+    margin-bottom:5px;
+    background:none;
+    background-image:url(../IMG/btn_opc.png);
+    border:none;
+    color:#1d1d1d;
+    font-family:NTBrickSans;
+    font-size:15px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+#opcoes button:hover{
+    height:56px;
+    width:224px;
+    margin-top:5px;
+    margin-bottom:5px;
+    background:none;
+    background-image:url(../IMG/btn_opc_hover.png);
+    border:none;
+    color:#333333;
+    font-family:NTBrickSans;
+    font-size:17px;
+    display:flex;
+    flex-direction:column;
+}
+#opcoes button.selecionado{
+    height:56px;
+    width:224px;
+    margin-top:5px;
+    margin-bottom:5px;
+    background:none;
+    background-image:url(../IMG/btn_opc_hover.png);
+    border:none;
+    color:#7a7a7a;
+    font-family:NTBrickSans;
+    font-size:17px;
+    display:flex;
+    flex-direction:column;
+}
+#verificar{
+    height:64px;
+    width:280px;
+    background:none;
+    background-image:url(../IMG/btn_verificar.png);
+    border:none;
+    color:#ffffff;
+    font-family:NTBrickSans;
+    font-size:20px;
+    margin-top:3px;
+}
+#verificar:hover{
+    height:64px;
+    width:280px;
+    background:none;
+    background-image:url(../IMG/btn_verificar_hover.png);
+    border:none;
+    color:#131313;
+    font-family:NTBrickSans;
+    font-size:20px;
+}

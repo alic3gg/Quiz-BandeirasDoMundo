@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Bandeiras do Mundo</title>
+    <link rel="icon" href="IMG/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style_fim.css">
+</head>
+<body>
+    <div class="background">
+        <p id="titulo">Que pena!</p>
+        <p id="texto">Você perdeu todas as suas vidas e não pode mais explorar as nações mundiais. 
+            Para descobrir as bandeiras restantes, tente novamente.</p>
+        <img src="IMG/brain_lose.png">
+        <p id="pontuacao"></p>
+        <button id="btn" onclick="window.location.href='index.html'">REINICIAR</button>
+    </div>
+    <script>
+        const acertos = sessionStorage.getItem("acertos");
+        const total = sessionStorage.getItem("total");
+        const porcentagem = Math.round((acertos / total) * 100);
+        document.getElementById("pontuacao").textContent =
+            `Você acertou ${acertos}/${total} (${porcentagem}%)`;
+    </script>
+</body>
+</html>
